@@ -17,7 +17,7 @@ export default function PageEightComponent() {
     <h1 class="text-6xl font-bold flex justify-center text-white">Magic 8 Ball</h1>
     <br/><br/><br/><br/><br/><br/><br/><br/>
     <div class="flex justify-center">
-        <input class="flex justify-center w-fit" type="text" placeholder="Ask a question" id="UserInput1" onChange={() => setWord()}/>  
+        <input class="flex justify-center w-fit" type="text" placeholder="Ask a question" id="UserInput1" onChange={(e) => setWord(e.target.value)}/>  
         <br/><br/>
     </div>
     <br/><br/><br/><br/><br/>

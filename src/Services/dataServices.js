@@ -81,7 +81,7 @@ export async function LevelEight(num1){
         const data = await promise.text()
         return data; 
     }else{
-        return'Please enter a number';
+        return'Please enter a Valid Question';
     }
 }
 
